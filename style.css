@@ -1,0 +1,31 @@
+/* Gaya untuk Navigasi */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Gaya untuk Halaman */
+  section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Gaya tambahan sesuai kebutuhan */
+  
