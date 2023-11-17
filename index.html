@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Website Sekolah</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -8,42 +10,44 @@
 
   <!-- Navigasi -->
   <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#jurusan">Jurusan</a></li>
-      <li><a href="#kontak">Kontak</a></li>
-    </ul>
+    <div class="container">
+      <h1>SMKN NEGERI 2 BANGKALAN</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#jurusan">Jurusan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <li><a href="#visi-misi">Visi & Misi</a></li> <!-- Tambahkan link ke bagian Visi & Misi -->
+      </ul>
+    </div>
   </nav>
 
   <!-- Halaman Home -->
-  <section id="home">
-    <h1>Selamat Datang di Website Sekolah</h1>
-    <p>Selamat datang di halaman utama sekolah kami.</p>
-    <!-- Konten home lainnya -->
+  <header id="home">
+    <div class="container">
+      <h1>Selamat Datang di SMK Pusat keunggulan </h1>
+      <p>SMKN Negeri 2 Bangkalan adalah sebuah institusi pendidikan yang bertujuan untuk memberikan pendidikan terbaik dalam berbagai bidang keilmuan dan teknologi.</p>
+      <p>Kami berkomitmen untuk menciptakan lingkungan belajar yang inspiratif dan mempersiapkan siswa untuk menghadapi tantangan di era global saat ini.</p>
+      <a href="#jurusan" class="btn">Jelajahi Jurusan</a>
+    </div>
+  </header>
+
+  <!-- Visi & Misi -->
+  <section id="visi-misi">
+    <div class="container">
+      <h2>Visi</h2>
+      <p>Mewujudkan sekolah unggulan yang berfokus pada pembelajaran berkualitas dan berbasis teknologi.</p>
+
+      <h2>Misi</h2>
+      <ul>
+        <li>Menyediakan lingkungan belajar yang inovatif dan inspiratif bagi siswa.</li>
+        <li>Mengembangkan kurikulum yang relevan dengan kebutuhan industri dan perkembangan teknologi.</li>
+        <li>Memberdayakan siswa untuk menjadi individu yang kreatif, mandiri, dan berdaya saing tinggi.</li>
+        <li>Menyediakan pelatihan dan fasilitas terbaik untuk mendukung pencapaian prestasi siswa.</li>
+      </ul>
+    </div>
   </section>
 
-  <!-- Halaman Jurusan -->
-  <section id="jurusan">
-    <h2>Jurusan</h2>
-    <p>Informasi tentang jurusan-jurusan yang tersedia di sekolah:</p>
-    <ul>
-      <li>Jurusan A</li>
-      <li>Jurusan B</li>
-      <li>Jurusan C</li>
-      <!-- Informasi lebih lanjut tentang setiap jurusan -->
-    </ul>
-  </section>
-
-  <!-- Halaman Kontak -->
-  <section id="kontak">
-    <h2>Kontak</h2>
-    <p>Informasi kontak sekolah:</p>
-    <p>Alamat: Jalan Contoh No. 123, Kota, Negara</p>
-    <p>Email: sekolah@example.com</p>
-    <p>Telepon: 123-456-789</p>
-    <!-- Informasi kontak lainnya -->
-  </section>
-
+  <!-- JavaScript untuk navigasi halus -->
   <script src="script.js"></script>
 </body>
 </html>
